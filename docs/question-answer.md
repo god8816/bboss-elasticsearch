@@ -1,6 +1,8 @@
 # 常见问题分析和处理
 
 # 问题1 连接默认的127.0.0.1:9200地址
+  
+  出现此问题原因分析：https://blog.csdn.net/god8816/article/details/111869092
 
 ```java
 org.frameworkset.elasticsearch.client.NoServerElasticSearchException: All elasticServer [http://127.0.0.1:9200] can't been connected.
